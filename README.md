@@ -1,4 +1,4 @@
-## iconicmocktest.com
+## IconicMockTest.com
 
 #### About the business - 
 
