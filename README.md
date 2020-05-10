@@ -1,3 +1,30 @@
+## iconicmocktest.com
+
+#### About the business - 
+
+"If you are an aspiring examinee of forthcoming board exams or entrance exams then this is the place for you to test your readiness before you go for the final act, we are here to test your readiness."
+
+## More about the project
+
+This project is developed with React JS, you can check the live version of the website here - [IconicMockTest.com](https://iconicmocktest.com/).
+
+The website is hosted on Amazon Web Services, services used ->
+
+#### S3 to deploye react built code.
+
+#### CloudFront Distributions to deliver fast content service that securely delivers data.
+
+#### Route 53 to maintain the DNS
+
+## How to run the project
+
+1. You need to install node npm globally in your local machine.
+2. Then you can pull this repo to your local machine or you can download the code in your local machine.
+3. Once done open cmd or terminal and navigate to the project folder.
+4. Then run `npm run` it will download all the dependencies mentioned in the package.json file to the current folder.
+5. Once the installation is complete run `npm start` to run the project locally.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
