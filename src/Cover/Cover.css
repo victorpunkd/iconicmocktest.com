@@ -1,0 +1,153 @@
+.cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./cover.jpg") center no-repeat scroll;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  padding: 1% 0%;
+}
+
+.logoAndContact {
+  padding: 0% 3%;
+  color: white;
+  font-size: 25px;
+}
+
+.logo {
+  float: left;
+}
+
+.contactInfo {
+  float: right;
+  font-family: "Muli", sans-serif;
+}
+
+.contactInfoSection {
+  padding: 0% 0%;
+}
+
+.contactInfoIcon {
+  color: #f03434;
+  margin-right: 0%;
+  font-size: 30px;
+}
+
+.contactInfoText {
+  font-size: 20px;
+}
+
+.mobileNavBar {
+  background-color: white;
+  width: 100%;
+  color: gray;
+  margin-top: 27%;
+  padding: 2% 2%;
+}
+
+.mobileNavBarItem {
+  font-size: 20px;
+  padding: 2% 0%;
+}
+
+.topBar {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.5% 2%;
+  width: 100%;
+}
+
+.topBarElement {
+  font-size: 20px;
+  margin-right: 2%;
+  color: #a9a9a9;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: "Muli", sans-serif;
+}
+
+.topBarElement:hover {
+  color: #3a539b;
+}
+
+.topBarElement.active {
+  color: #3a539b;
+}
+
+.coverContent {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.coverText {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.coverSecondaryText {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 0% 30%;
+}
+
+.button {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  background-color: #00b16a;
+  border: none;
+  padding: 1% 2%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .coverContent {
+    margin-top: 60%;
+  }
+
+  .coverText {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .contactInfo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .contactInfoIcon {
+    font-size: 15px;
+  }
+
+  .contactInfoText {
+    font-size: 10px;
+  }
+
+  .coverSecondaryText {
+    font-size: 15px;
+    padding: 0% 10%;
+  }
+
+  .button {
+    padding: 3% 6%;
+    margin-top: 5%;
+  }
+
+  .hamburgerMenu {
+    float: right;
+  }
+}

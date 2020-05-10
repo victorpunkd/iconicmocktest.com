@@ -1,0 +1,33 @@
+.galleryContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.mobileViewRightPadding {
+  padding-right: 10px;
+}
+
+.mobileViewLeftPadding {
+  padding-left: 10px;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .mobileViewRightPadding {
+    padding-right: 0px;
+    margin-top: 0px;
+  }
+
+  .mobileViewLeftPadding {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+}

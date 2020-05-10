@@ -1,0 +1,58 @@
+.scheduleContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.scheduleTable {
+  padding: 2% 20%;
+}
+
+.expect {
+  margin-top: 1%;
+  font-size: 25px;
+  color: gray;
+}
+
+.examDate {
+  margin-top: 1%;
+  font-weight: 600;
+  color: #3a539b;
+  font-size: 40px;
+}
+
+.watch {
+  margin-top: 1%;
+  font-size: 20px;
+  color: gray;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .scheduleTable {
+    padding: 0% 3%;
+    font-size: 11px;
+  }
+
+  .expect {
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .examDate {
+    margin-top: 5%;
+    font-size: 25px;
+  }
+
+  .watch {
+    margin-top: 5%;
+    font-size: 15px;
+  }
+}

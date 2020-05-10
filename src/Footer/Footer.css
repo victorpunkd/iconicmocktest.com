@@ -1,0 +1,13 @@
+.footerContainer {
+  background-color: #f03434;
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+  padding: 3% 5%;
+}
+
+.footer {
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 15px;
+}

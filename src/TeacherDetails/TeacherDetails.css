@@ -1,0 +1,25 @@
+.teacherImage {
+  width: 100px;
+  height: 100px;
+}
+
+.teacherDescription {
+  font-size: 15px;
+  color: gray;
+  margin-top: 5%;
+  font-family: "Muli", sans-serif;
+}
+
+.teacherName {
+  font-size: 25px;
+  color: #00b16a;
+  margin-top: 2%;
+  font-family: "Muli", sans-serif;
+}
+
+.teacherDesignation {
+  font-size: 15px;
+  color: gray;
+  margin-top: 1%;
+  font-family: "Muli", sans-serif;
+}

@@ -1,0 +1,59 @@
+.coursesContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.heading {
+  font-family: "Muli", sans-serif;
+  color: #3a539b;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.headingDescription {
+  color: gray;
+  font-size: 15px;
+  padding: 0% 5%;
+  font-family: "Muli", sans-serif;
+}
+
+.courses {
+  margin-top: 5%;
+}
+
+.courseCard {
+  margin-top: 0%;
+}
+
+.courseImages {
+  width: 150px;
+  height: 150px;
+}
+
+.courseName {
+  color: #00b16a;
+  font-family: "Muli", sans-serif;
+  font-size: 25px;
+}
+
+.courseDescription {
+  color: gray;
+  font-family: "Muli", sans-serif;
+  font-size: 15px;
+  padding: 0% 20%;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .courseCard {
+    margin-top: 5%;
+  }
+}
